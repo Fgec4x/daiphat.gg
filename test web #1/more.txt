@@ -1,0 +1,7 @@
+on css:
+    display: flex;                  /*Kích hoạt flexbox*/
+    flex-direction: row;            /*Thiết lập hướng chính*/
+    flex-wrap: nowrap;              /*Thiết lập chế độ wrap, khi các phần tử vượt qua kích thước hướng chính*/
+    justify-content: flex-end;      /*Căn chỉnh nội dung bên trong container có flexbox*/
+    align-items: stretch;           /*Căn chỉnh phần tử con theo hướng vuông góc hướng chính*/
+    align-content: stretch;         /*Căn chỉnh hàng (cột) theo hướng vuông góc (chỉ hiệu lực khi nhiều hàng hoặc cột)*/
